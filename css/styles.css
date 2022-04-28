@@ -108,10 +108,15 @@ img {
 .header-navigation {
     margin-left: 93px;
 }
-
+.header-list {
+    display: flex;
+    align-items: center;
+}
 
 .header-link {
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-weight: 500;
     font-size: 14px;
@@ -133,15 +138,6 @@ img {
 }
 
 
-.header-list {
-    display:flex;
-    align-items: center;
-}
-
-.header-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
 
 
